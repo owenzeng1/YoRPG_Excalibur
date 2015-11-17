@@ -1,7 +1,7 @@
 // Team Excalibur - Andrew Lin, James Wang, Owen Zeng
 // APCS1 pd9
-// HW#30 -- Ye Olde Role Playing Game, Expanded
-// 2015-11-13
+// HW#31 -- Ye Olde Role Playing Game, Unchained
+// 2015-11-16
 
 public abstract class Character {
 
@@ -45,5 +45,4 @@ public abstract class Character {
         s.lowerHP (dmg);
         return dmg;}
 
-        
 }

@@ -1,7 +1,7 @@
 // Team Excalibur - Andrew Lin, James Wang, Owen Zeng
 // APCS1 pd9
-// HW#30 -- Ye Olde Role Playing Game, Expanded
-// 2015-11-13
+// HW#31 -- Ye Olde Role Playing Game, Unchained
+// 2015-11-16
 
 public class Monster extends Character {
 
@@ -12,15 +12,15 @@ public class Monster extends Character {
         str = (int)(Math.random()*15 + 30);
         def = 10;
         atkRate = 1; }
-        
+
     public String about (){
         return "Job description: You are probably a monster.";
     }
-    
+
     public void normalize(){
         str = (int)(Math.random()*15 + 30);
     }
-    
+
     public void specialize(){
         def = 10;
     }
